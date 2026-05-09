@@ -1,9 +1,8 @@
 bindPort = 7000
 auth.token = "12345"
 
-# 面板监听 0.0.0.0:Railway 的端口（80/443）
 webServer.addr = "0.0.0.0"
-webServer.port = {{PORT}}  # 这里用 Railway 环境变量，不要写死7500
+webServer.port = 80
 webServer.user = "admin"
 webServer.password = "123321"
 
