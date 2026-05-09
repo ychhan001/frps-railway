@@ -1,10 +1,10 @@
 bindPort = 7000
 auth.token = "12345"
 webServer.addr = "0.0.0.0"
-webServer.port = 80
+webServer.port = 443
 webServer.user = "admin"
 webServer.password = "123321"
-vhostHTTPPort = 1000
+vhostHTTPPort = 80
 allowPorts = [
   { start = 1000, end = 20000 }
 ]
