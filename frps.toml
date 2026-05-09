@@ -1,4 +1,4 @@
-bindPort = 7000
+bindPort = 443
 auth.token = "12345"
 vhostHTTPPort = 80
 allowPorts = [
